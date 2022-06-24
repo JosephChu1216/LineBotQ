@@ -98,7 +98,7 @@ def index():
                     payload["messages"] = [
                             {
                                 "type": "text",
-                                "text": text
+                                "text": text + "000"
                             }
                         ]
                 replyMessage(payload)
